@@ -1,57 +1,119 @@
 <!DOCTYPE html>
-<html lang="pt-PT">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tonilson Furtado | Backend Developer Júnior</title>
-    <meta name="description" content="Portfólio de Tonilson Furtado, Backend Developer Júnior com foco em PHP e Laravel.">
+    <title>Tonilson Aguiar Furtado — Portfólio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/main.js" defer></script>
+    <meta name="description" content="Portfólio de Tonilson Aguiar Furtado — Programador Web | Full Stack">
 </head>
 <body>
-
-    <nav class="navbar">
-        <div class="nav-logo">Tonilson<span>.dev</span></div>
-        <ul class="nav-links">
-            <li><a href="index.html" class="nav-link active">Home</a></li>
-            <li><a href="sobre.html" class="nav-link">Sobre</a></li>
-            <li><a href="projetos.html" class="nav-link">Projetos</a></li>
-        </ul>
-    </nav>
-
-    <main class="home-wrapper">
-        <section class="hero-container">
-            
-            <div class="hero-text">
-                
-                <div class="animate-up" style="transition-delay: 100ms;">
-                    <div class="status-badge">
-                        <span class="status-dot"></span>
-                        Disponível para oportunidades Júnior / Estágio
-                    </div>
+    <div class="container">
+        <header class="header">
+            <div class="header-left">
+                <h1 class="name">Tonilson Aguiar Furtado</h1>
+                <p class="role">Programador Web | Full Stack</p>
+                <div class="contact">
+                    <span class="contact-item"><i class="fas fa-map-marker-alt"></i> Porto, Portugal</span>
+                    <span class="contact-item"><i class="fas fa-phone"></i> (+351) 926 334 432</span>
+                    <span class="contact-item"><i class="fas fa-envelope"></i> <a href="mailto:furtadotonilson5@gmail.com">furtadotonilson5@gmail.com</a></span>
+                    <span class="contact-item"><i class="fas fa-globe"></i> <a href="https://tonilsonfurtado.site" target="_blank" rel="noopener">tonilsonfurtado.site</a></span>
                 </div>
+            </div>
+            <div class="header-right">
+                <img src="assets/img/perfil.jpg" alt="Foto de Tonilson" class="profile-img">
+            </div>
+        </header>
 
-                <h1 class="hero-title animate-up" style="transition-delay: 200ms;">
-                    Tonilson Furtado<br>
-                    <span>Backend Developer Júnior</span>
-                </h1>
+        <section class="section about">
+            <h2>Sobre Mim</h2>
+            <p>Sempre gostei de perceber como as coisas funcionam por trás do ecrã e, acima de tudo, de resolver os problemas que aparecem no caminho. Sou um programador web prático e autónomo. No meu dia a dia, sinto-me confortável a construir interfaces rápidas com <strong>React e Next.js</strong>, a montar backends com <strong>Laravel</strong> ou a criar soluções em <strong>WordPress</strong>. Não me prendo a uma única ferramenta: se o projeto precisar de uma app, pego no <strong>React Native</strong>; se for preciso automatizar uma tarefa chata, escrevo um script em Python. O meu foco é escrever código limpo, entregar projetos que realmente funcionem e garantir que quem usa do outro lado tem uma boa experiência.</p>
+        </section>
 
-                <p class="hero-subtitle animate-up" style="transition-delay: 300ms;">
-                    Desenvolvedor Web Júnior com foco em backend,
-                    trabalhando na implementação de lógica de negócio
-                    e APIs REST utilizando <strong>PHP (Laravel)</strong>
-                    em projetos práticos.
-                </p>
+        <section class="section skills">
+            <h2>O que eu domino</h2>
+            <ul class="skills-list">
+                <li><strong>Frontend:</strong> React, Next.js, JavaScript (ES6+), Tailwind CSS, Framer Motion, PWA, HTML/CSS (SEO).</li>
+                <li><strong>Backend & Dados:</strong> PHP (Laravel), Node.js, Supabase (PostgreSQL), Prisma, Redis, MySQL, APIs REST (JWT).</li>
+                <li><strong>Mobile & CMS:</strong> React Native (Expo), WordPress.</li>
+                <li><strong>Inovação & Ferramentas:</strong> Integração de IA, Web3 (Solana), Python, Git, Docker, Postman.</li>
+            </ul>
+        </section>
 
-                <div class="cta-group animate-up" style="transition-delay: 400ms;">
-                    <a href="projetos.html" class="btn btn-primary">Ver Projetos</a>
-                    <a href="sobre.html" class="btn btn-secondary">Sobre Mim</a>
+        <section class="section experience">
+            <h2>Onde já estagiei</h2>
+            <div class="entry">
+                <div class="entry-left">
+                    <h3>Programador Web — Mais Automação Lda.</h3>
+                    <p class="muted">Maia, Portugal — Abril 2024 – Jun 2024</p>
                 </div>
-
+                <div class="entry-right">
+                    <ul>
+                        <li>Desenvolvi e mantive websites e lojas online usando <strong>WordPress</strong>.</li>
+                        <li>Integrei <strong>APIs</strong> externas e criei scripts em <strong>Python</strong> para automações.</li>
+                    </ul>
+                </div>
             </div>
 
+            <div class="entry">
+                <div class="entry-left">
+                    <h3>Promotor de Eventos — Agência de Marketing</h3>
+                    <p class="muted">Porto, Portugal — Maio 2025 – Agosto 2025</p>
+                </div>
+                <div class="entry-right">
+                    <ul>
+                        <li>Comunicação com público e equipas dinâmicas; desenvolvimento de soft skills relevantes para TI.</li>
+                    </ul>
+                </div>
+            </div>
         </section>
-    </main>
 
-    <script src="assets/js/main.js"></script>
+        <section class="section projects">
+            <h2>Projetos de Destaque</h2>
+            <article class="project">
+                <h4>BlinkFund — Web3 Crowdfunding (Next.js, Supabase)</h4>
+                <p>Plataforma fullstack de crowdfunding Web3 com Next.js 16, Prisma, Supabase e Upstash Redis. Autenticação passwordless e PWA.</p>
+            </article>
+
+            <article class="project">
+                <h4>Seven Faith — App Mobile (React Native, Expo)</h4>
+                <p>App mobile com gamificação, integração de IA generativa e internacionalização.</p>
+            </article>
+
+            <article class="project">
+                <h4>ShopVerde — Backend E-commerce (Laravel)</h4>
+                <p>API RESTful com autenticação JWT/Sanctum, integrações de pagamento e WebSockets.</p>
+            </article>
+        </section>
+
+        <section class="section education">
+            <h2>Formação Académica</h2>
+            <div class="entry">
+                <div class="entry-left">
+                    <h3>Licenciatura em Engenharia Informática (Em curso)</h3>
+                    <p class="muted">Universidade da Maia (ISMAI) — Setembro 2025 – Presente</p>
+                </div>
+            </div>
+
+            <div class="entry">
+                <div class="entry-left">
+                    <h3>Técnico de Informática de Gestão (Nível 4)</h3>
+                    <p class="muted">Escola Profissional Novos Horizontes — 2022 – 2025</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section languages">
+            <h2>Idiomas</h2>
+            <p><strong>Português:</strong> Nativo&nbsp;&nbsp; <strong>Inglês:</strong> Intermédio (Leitura técnica fluente)</p>
+        </section>
+
+        <footer class="footer">
+            <p>© Tonilson Aguiar Furtado</p>
+        </footer>
+    </div>
 </body>
 </html>
